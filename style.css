@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+
+/*
+* Buscar o style direto no JavaScript -> element.style.propriedade = 'valor'
+*/
+/* .modal {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/*
+* Modificar as classes direto no JavaScript
+*/
+
+.bodyModal {
+    background-color: rgba(0, 0, 0, 0.385);
+}
+
+.modal {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+}
+
+.modalClose {
+    display: none;
+}
+
+.modalOpen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
